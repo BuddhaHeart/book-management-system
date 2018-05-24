@@ -1,8 +1,10 @@
 package com.tang.dao;
 
 import com.tang.domain.Appointment;
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.data.repository.query.Param;
 
+@Mapper
 public interface AppointmentMapper {
     /**
      * 插入预约图书记录

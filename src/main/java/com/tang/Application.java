@@ -1,4 +1,4 @@
-package com.tang.springboot;
+package com.tang;
 
 
 import org.springframework.boot.SpringApplication;

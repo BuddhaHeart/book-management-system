@@ -1,10 +1,12 @@
 package com.tang.dao;
 
 import com.tang.domain.Book;
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
+@Mapper
 public interface BookMapper {
     /**
      * 通过ID查询单本图书
